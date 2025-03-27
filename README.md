@@ -19,6 +19,7 @@ This project analyzes credit card default data to uncover trends and risk factor
 - **Pair Plots and Heatmaps** – Analyze interactions between multiple financial and demographic features.
 
 🔄️Data Preprocessing🔄️
+
 We performed several preprocessing steps to clean and prepare the dataset for analysis:
 
 ```python
@@ -50,10 +51,12 @@ X_scaled = scaler.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 ```
 
-📉Data Visualization & Insights
+📉Data Visualization & Insights.
+
 We performed several visual analyses to gain insights into credit card defaults:
 
-- **Default Rate Distribution**: A histogram to show how defaults are distributed across the dataset.
+- **Default Rate Distribution**:
+-  A histogram to show how defaults are distributed across the dataset.
 
 ```python
 plt.figure(figsize=(8,5))
