@@ -1,6 +1,6 @@
 **Credit Card Default Analysis Report**
 
-**Presented by: [Your Name]**
+**group work**
 
 ---
 
@@ -46,7 +46,7 @@ X_scaled = scaler.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 ```
 
-### **Data Visualization & Insights**
+📉### **Data Visualization & Insights**
 We performed several visual analyses to gain insights into credit card defaults:
 
 - **Default Rate Distribution**: A histogram to show how defaults are distributed across the dataset.
