@@ -1,4 +1,5 @@
 🔶Credit Card Default Analysis Report🔶
+![image](https://github.com/user-attachments/assets/eb2e7e5b-957c-4c86-a33d-8f1afdfb1098)
 
 group work
 
@@ -7,14 +8,14 @@ group work
 Introduction
 This project analyzes credit card default data to uncover trends and risk factors associated with credit defaults. By exploring demographic attributes, financial behaviors, and past payment history, we identify the key drivers influencing default rates. Using data visualization, we transform raw data into meaningful insights to enhance credit risk assessment.
 
-### **What Our Project Entails**
+What Our Project Entails
 - **Default Rate Trends** – Understand how default rates vary across different customer segments.
 - **Feature Relationships** – Identify which factors have the most significant impact on credit defaults.
 - **Scatter Plots** – Explore connections between credit limit, income, and default risk.
 - **Box Plot Analysis** – Compare default rates across different income and age groups.
 - **Pair Plots and Heatmaps** – Analyze interactions between multiple financial and demographic features.
 
-### **Data Preprocessing**
+🔄️Data Preprocessing🔄️
 We performed several preprocessing steps to clean and prepare the dataset for analysis:
 
 ```python
@@ -46,7 +47,7 @@ X_scaled = scaler.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 ```
 
-📉### **Data Visualization & Insights**
+📉Data Visualization & Insights
 We performed several visual analyses to gain insights into credit card defaults:
 
 - **Default Rate Distribution**: A histogram to show how defaults are distributed across the dataset.
@@ -91,6 +92,17 @@ sns.boxplot(x=credit['income'], y=credit['default'])
 plt.title("Income vs Default")
 plt.show()
 ```
+ BOX Plot Analysis Interpretation
+
+The box plot comparing income levels to default rates provides key insights into the relationship between financial stability and default risk:
+
+Median and Quartiles: Individuals with lower incomes tend to have a higher median default rate, with a larger spread in default occurrences.
+
+Outliers: There are extreme cases of high-income individuals who still defaulted, indicating that income alone does not fully determine default risk.
+
+General Trend: The default rate generally decreases as income increases, suggesting that financial stability plays a role in mitigating default risk.
+
+Potential Anomalies: Certain income brackets exhibit a wide range of default behavior, possibly due to variations in spending habits, financial responsibilities, or other socio-economic factors
 ![image](https://github.com/user-attachments/assets/ce05774b-010c-49f8-a0e4-585a12f74765)
 
 ### **About the Dataset**
