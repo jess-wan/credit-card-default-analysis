@@ -65,7 +65,9 @@ plt.figure(figsize=(10,6))
 sns.heatmap(credit.corr(), annot=True, cmap='coolwarm', fmt='.2f')
 plt.title("Feature Correlation Heatmap")
 plt.show()
+
 ```
+![image](https://github.com/user-attachments/assets/e3ed6fa0-a6c8-49d1-9f12-a1f40744c6a2)
 
 - **Scatter Plots**:
   - **Credit Limit vs. Default Rate**: Customers with lower credit limits may have higher default rates.
@@ -78,6 +80,7 @@ sns.scatterplot(x=credit['credit_limit'], y=credit['default'])
 plt.title("Credit Limit vs Default")
 plt.show()
 ```
+EXAMPLE OF A SCATTER PLOT
 ![image](https://github.com/user-attachments/assets/882ffbfe-f906-4776-88b3-443c855d0f9f)
 
 - **Box Plot Analysis**: Compares default rates based on factors like income level, employment status, and payment history.
