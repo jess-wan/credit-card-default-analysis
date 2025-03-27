@@ -1,10 +1,10 @@
-**Credit Card Default Analysis Report**
+🔶Credit Card Default Analysis Report🔶
 
-**group work**
+group work
 
 ---
 
-### **Introduction**
+Introduction
 This project analyzes credit card default data to uncover trends and risk factors associated with credit defaults. By exploring demographic attributes, financial behaviors, and past payment history, we identify the key drivers influencing default rates. Using data visualization, we transform raw data into meaningful insights to enhance credit risk assessment.
 
 ### **What Our Project Entails**
@@ -91,6 +91,7 @@ sns.boxplot(x=credit['income'], y=credit['default'])
 plt.title("Income vs Default")
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/ce05774b-010c-49f8-a0e4-585a12f74765)
 
 ### **About the Dataset**
 The dataset includes:
@@ -98,14 +99,14 @@ The dataset includes:
 - **Financial Behavior** (credit limit, bill amounts, previous payments, etc.)
 - **Default Status** (whether the customer defaulted on their payments)
 
-### **Tools We Used**
+✅Tools We Used
 - **Python** – The foundation of the analysis.
 - **Pandas** – For data organization and processing.
 - **Seaborn & Matplotlib** – To create clear and informative visualizations.
 - **Scikit-Learn** – For data preprocessing and machine learning modeling.
 - **Jupyter Notebook** – For interactive data exploration and analysis.
 
-### **Getting Started**
+💥Getting Started
 To run an analysis on our project, follow these steps:
 1. Load the dataset into a Pandas DataFrame.
 2. Perform exploratory data analysis (EDA) to identify key trends and correlations.
@@ -113,14 +114,14 @@ To run an analysis on our project, follow these steps:
 4. Train machine learning models to predict credit default risk.
 5. Evaluate model performance using accuracy, precision, recall, and F1-score.
 
-### **Next Steps**
+Next Steps
 - Engineer new features to improve predictive modeling.
 - Experiment with machine learning algorithms to enhance default risk prediction.
 - Perform additional statistical tests to validate insights.
 
 ---
 
-**LET’S GET STARTED**
+💫CONCLUSION
 
 This report provides a structured approach to analyzing credit card default risks. By leveraging data insights, we aim to improve risk management strategies and credit scoring models.
 
