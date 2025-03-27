@@ -64,6 +64,8 @@ sns.histplot(credit['default'], bins=2, kde=True)
 plt.title("Distribution of Default Rates")
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/b25bbaa7-3047-493a-8bba-d5dcaa1730e7)
+
 
 - **Feature Correlation Heatmap**: Identifies how different financial and demographic factors correlate with default risk.
 
