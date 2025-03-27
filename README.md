@@ -78,6 +78,7 @@ sns.scatterplot(x=credit['credit_limit'], y=credit['default'])
 plt.title("Credit Limit vs Default")
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/882ffbfe-f906-4776-88b3-443c855d0f9f)
 
 - **Box Plot Analysis**: Compares default rates based on factors like income level, employment status, and payment history.
 
