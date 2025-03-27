@@ -1,14 +1,17 @@
-🔶Credit Card Default Analysis Report🔶
+🔶Credit Card Default Analysis Report🔶GROUP WORK
+
+
 ![image](https://github.com/user-attachments/assets/eb2e7e5b-957c-4c86-a33d-8f1afdfb1098)
 
-group work
+
 
 ---
 
-Introduction
+INTRODUCTION
+
 This project analyzes credit card default data to uncover trends and risk factors associated with credit defaults. By exploring demographic attributes, financial behaviors, and past payment history, we identify the key drivers influencing default rates. Using data visualization, we transform raw data into meaningful insights to enhance credit risk assessment.
 
-What Our Project Entails
+**What Our Project Entails**
 - **Default Rate Trends** – Understand how default rates vary across different customer segments.
 - **Feature Relationships** – Identify which factors have the most significant impact on credit defaults.
 - **Scatter Plots** – Explore connections between credit limit, income, and default risk.
