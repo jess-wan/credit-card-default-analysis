@@ -92,7 +92,8 @@ plt.show()
 EXAMPLE OF A SCATTER PLOT
 ![image](https://github.com/user-attachments/assets/882ffbfe-f906-4776-88b3-443c855d0f9f)
 
-- **Box Plot Analysis**: Compares default rates based on factors like income level, employment status, and payment history.
+- **Box Plot Analysis**:
+-  Compares default rates based on factors like income level, employment status, and payment history.
 
 ```python
 plt.figure(figsize=(8,5))
@@ -102,15 +103,52 @@ plt.show()
 ```
  BOX Plot Analysis Interpretation
 
-The box plot comparing income levels to default rates provides key insights into the relationship between financial stability and default risk:
+Key Observations
 
-Median and Quartiles: Individuals with lower incomes tend to have a higher median default rate, with a larger spread in default occurrences.
+    Interquartile Range (IQR) – The Box
 
-Outliers: There are extreme cases of high-income individuals who still defaulted, indicating that income alone does not fully determine default risk.
+        The box represents the middle 50% of the data (from Q1 to Q3).
 
-General Trend: The default rate generally decreases as income increases, suggesting that financial stability plays a role in mitigating default risk.
+        The median (central line inside the box) suggests that most individuals have a credit limit below 200,000.
 
-Potential Anomalies: Certain income brackets exhibit a wide range of default behavior, possibly due to variations in spending habits, financial responsibilities, or other socio-economic factors
+        A large portion of the dataset has credit limits concentrated between 0 and ~300,000.
+
+    Whiskers – Data Spread
+
+        The whiskers extend to the minimum and maximum values within 1.5 times the IQR.
+
+        The lower whisker suggests that some individuals have very low credit limits close to 0.
+
+        The upper whisker shows the highest non-outlier credit limit is just above 400,000.
+
+    Outliers (Dots Beyond the Whiskers)
+
+        Many data points beyond the upper whisker represent outliers (customers with significantly higher credit limits).
+
+        A few individuals have credit limits as high as 1,000,000, but they are rare.
+
+        This suggests that most people have relatively low credit limits, while a few have exceptionally high ones.
+
+Implications for Credit Default Analysis
+
+    Higher Credit Limits Have Fewer Individuals
+
+        Since outliers represent a small number of individuals, it could indicate that banks issue high credit limits only to financially stable customers.
+
+        If we compare this to default rates, we would likely see lower default rates among high-credit-limit individuals.
+
+    Defaults May Be Concentrated in the Lower Credit Limits
+
+        Since the majority of customers fall in the lower range of credit limits, it is likely that most defaults happen in this range.
+
+        This could mean riskier borrowers tend to have lower credit limits, either because they are new to credit or have lower financial stability.
+
+    Need for Further Analysis
+
+        A box plot of credit limits grouped by default status could confirm if lower credit limit holders default more often.
+
+        Analyzing the credit limit vs. income or debt ratio could help explain why some individuals receive higher limits.
+
 ![image](https://github.com/user-attachments/assets/ce05774b-010c-49f8-a0e4-585a12f74765)
 
 ### **About the Dataset**
