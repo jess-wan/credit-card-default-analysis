@@ -113,6 +113,30 @@ plt.title("Credit Limit vs Default")
 plt.show()
 ```
 EXAMPLE OF A SCATTER PLOT
+    s Are Higher for Middle-Aged Individuals (30-50 Years Old):
+
+        Most customers in this age range have higher credit limits compared to younger (20-30) and older (60+) individuals.
+
+        This suggests that banks may assign higher credit limits to individuals in their peak earning years.
+
+    Default Cases (Green Dots) Are Spread Across Age Groups but More Frequent at Lower Credit Limits:
+
+        The green dots (defaulted accounts) are more concentrated in the lower range of credit limits.
+
+        This indicates that customers with lower credit limits tend to default more often.
+
+    Fewer Defaults at Higher Credit Limits:
+
+        There are very few default cases among individuals with credit limits exceeding 600,000.
+
+        This suggests that high-credit-limit customers may have better financial stability or more stringent approval criteria.
+
+    Young Customers (20-30 Years) Show More Defaults:
+
+        There is a higher concentration of default cases in the younger population.
+
+        This could indicate that younger individuals may have riskier financial behavior, lower financial experience, or unstable income sources.
+
 ![image](https://github.com/user-attachments/assets/882ffbfe-f906-4776-88b3-443c855d0f9f)
 
 - **Box Plot Analysis**:
