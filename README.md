@@ -77,6 +77,29 @@ plt.show()
 
 ```
 ![image](https://github.com/user-attachments/assets/e3ed6fa0-a6c8-49d1-9f12-a1f40744c6a2)
+Bill Statement Amounts Are Highly Correlated:
+
+    The bill statement amounts from different months (e.g., bill_statement_sep, bill_statement_aug, etc.) exhibit strong positive correlations (close to 1.0).
+
+    This suggests that customers with high outstanding balances in one month tend to have high balances in subsequent months.
+
+Previous Payments Also Show Correlations:
+
+    The previous payment amounts for different months (previous_payment_sep, previous_payment_aug, etc.) are strongly correlated.
+
+    This indicates that customers who make higher payments in one month tend to continue making higher payments in following months.
+
+Weak Correlation Between Credit Limit and Age:
+
+    The correlation between limit_bal (credit limit) and age is weak (around 0.14), suggesting that credit limits are not significantly influenced by a customer's age.
+
+    This implies that other factors, such as income or credit history, may play a more crucial role in determining credit limits.
+
+Low Correlation Between Bill Statements and Previous Payments:
+
+    The correlation between bill statements and previous payments is relatively weak.
+
+    This suggests that higher outstanding balances do not always lead to proportionally higher payments, which could indicate financial distress in some customers.
 
 - **Scatter Plots**:
   - **Credit Limit vs. Default Rate**: Customers with lower credit limits may have higher default rates.
